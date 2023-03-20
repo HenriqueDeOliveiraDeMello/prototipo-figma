@@ -1,4 +1,12 @@
 header{
-    background-color: #1c99d3cc;
+    background-color: #0196eccc;
     color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.cabecalho-img{
+    width:10%;
+}
+.cabecalho-lista-item{
+    display: inline-block;
 }
