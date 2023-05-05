@@ -1,19 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.cabecalho{
+
+.cabecalho {
     background-color: #373D5F;
-    color: white;
+    color: rgb(255, 254, 254);
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 24px 0;
 }
-.cabecalho-img{
-    width:10%;
+
+.cabecalho-imagem{
+    width: 10%;
 }
+
 .cabecalho-lista-item{
     display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+    margin: 0 15px;
+    font-size: 20px;
 }
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#373D5F,#00A3FF);
+    color:hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.escola-div-conteudo{
+    width: 20%;
+}
+.escola-titulo{
+    padding: 30px 20px;
+}
+.
